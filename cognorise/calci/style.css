@@ -1,0 +1,33 @@
+body{
+    background-color: cadetblue;
+}
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+    box-shadow: 10px 20px 30px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+button:active {
+    background-color: gray;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
+    gap: 10px;
+    width: 400px;
+
+   
+}
+
+.calci{
+    border: 2px solid black;
+    padding: 0.5rem;
+    width:400px;
+    background-color: rgb(61, 74, 89);
+}
